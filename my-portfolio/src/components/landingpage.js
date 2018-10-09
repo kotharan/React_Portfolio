@@ -11,7 +11,11 @@ class LandingPage extends Component {
                     <div className= "banner-text">   
                         <h1>Full Stack Web Developer</h1>
                         <hr/>
-                        
+                    </div>
+                    <div className="social-links">
+                    <a href="https://github.com/kotharan" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-github"/>  </a>
+
                     </div>
                     
                     </Cell>
