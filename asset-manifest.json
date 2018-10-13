@@ -1,15 +1,15 @@
 {
-  "main.css": "/React_Portfolio/my-portfolio/src/static/css/main.8006d5ba.chunk.css",
-  "main.js": "/React_Portfolio/my-portfolio/src/static/js/main.fecb5c4c.chunk.js",
-  "main.js.map": "/React_Portfolio/my-portfolio/src/static/js/main.fecb5c4c.chunk.js.map",
-  "static/css/1.50ca6f7a.chunk.css": "/React_Portfolio/my-portfolio/src/static/css/1.50ca6f7a.chunk.css",
-  "static/js/1.00afdccb.chunk.js": "/React_Portfolio/my-portfolio/src/static/js/1.00afdccb.chunk.js",
-  "static/js/1.00afdccb.chunk.js.map": "/React_Portfolio/my-portfolio/src/static/js/1.00afdccb.chunk.js.map",
-  "runtime~main.js": "/React_Portfolio/my-portfolio/src/static/js/runtime~main.e4011ed7.js",
-  "runtime~main.js.map": "/React_Portfolio/my-portfolio/src/static/js/runtime~main.e4011ed7.js.map",
-  "static/css/1.50ca6f7a.chunk.css.map": "/React_Portfolio/my-portfolio/src/static/css/1.50ca6f7a.chunk.css.map",
-  "static/css/main.8006d5ba.chunk.css.map": "/React_Portfolio/my-portfolio/src/static/css/main.8006d5ba.chunk.css.map",
-  "index.html": "/React_Portfolio/my-portfolio/src/index.html",
-  "precache-manifest.6ab9f7c2bed61ec7b78deae91c3b869f.js": "/React_Portfolio/my-portfolio/src/precache-manifest.6ab9f7c2bed61ec7b78deae91c3b869f.js",
-  "service-worker.js": "/React_Portfolio/my-portfolio/src/service-worker.js"
+  "main.css": "/React_Portfolio/my-portfolio/src/App.js/static/css/main.8006d5ba.chunk.css",
+  "main.js": "/React_Portfolio/my-portfolio/src/App.js/static/js/main.5b306e53.chunk.js",
+  "main.js.map": "/React_Portfolio/my-portfolio/src/App.js/static/js/main.5b306e53.chunk.js.map",
+  "static/css/1.50ca6f7a.chunk.css": "/React_Portfolio/my-portfolio/src/App.js/static/css/1.50ca6f7a.chunk.css",
+  "static/js/1.00afdccb.chunk.js": "/React_Portfolio/my-portfolio/src/App.js/static/js/1.00afdccb.chunk.js",
+  "static/js/1.00afdccb.chunk.js.map": "/React_Portfolio/my-portfolio/src/App.js/static/js/1.00afdccb.chunk.js.map",
+  "runtime~main.js": "/React_Portfolio/my-portfolio/src/App.js/static/js/runtime~main.107df448.js",
+  "runtime~main.js.map": "/React_Portfolio/my-portfolio/src/App.js/static/js/runtime~main.107df448.js.map",
+  "static/css/main.8006d5ba.chunk.css.map": "/React_Portfolio/my-portfolio/src/App.js/static/css/main.8006d5ba.chunk.css.map",
+  "static/css/1.50ca6f7a.chunk.css.map": "/React_Portfolio/my-portfolio/src/App.js/static/css/1.50ca6f7a.chunk.css.map",
+  "index.html": "/React_Portfolio/my-portfolio/src/App.js/index.html",
+  "precache-manifest.c9b9fc7379b9378f8a5577ff2f29dadc.js": "/React_Portfolio/my-portfolio/src/App.js/precache-manifest.c9b9fc7379b9378f8a5577ff2f29dadc.js",
+  "service-worker.js": "/React_Portfolio/my-portfolio/src/App.js/service-worker.js"
 }
