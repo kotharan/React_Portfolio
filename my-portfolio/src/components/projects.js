@@ -19,8 +19,8 @@ class Projects extends Component {
                    Come join us, we will help you.
                 </CardText>
                 <CardActions border>
-                    <Button style={{width: '100%'}} colored href="https://team-delicious.herokuapp.com/home" target="_blank">Decide NOW!</Button>
-                    <Button target="_blank" colored><a href="https://github.com/kotharan/Hackathon_team_delicious" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>
+                    <Button style={{width: '50%'}} colored href="https://team-delicious.herokuapp.com/home" target="_blank">Decide NOW!</Button>
+                    <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/Hackathon_team_delicious" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton hre name="share" /><br/>
