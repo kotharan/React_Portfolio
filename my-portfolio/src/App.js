@@ -11,16 +11,16 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title="My Portfolio Tabs" scroll>
             <Navigation>
-                <Link to="./" ><a href="#" style={{color:'white', "font-size": '23px', padding: '10px'}}><i className="fa fa-fort-awesome-sqare" /></a></Link>
+                <Link to="./" ><a href="./" style={{color:'white', "font-size": '25px', padding: '10px'}}><i className="fa fa-home" /></a></Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contacts">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="My Portfolio Tabs">
+        <Drawer>
         <Navigation>
-                <Link to="./">Home</Link>
+                <Link to="./" ><a href="./" style={{color:'black', "font-size": '25px', padding: '10px' , opacity:'0.5'}}><i className="fa fa-home" /></a></Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>

@@ -10,6 +10,7 @@
   background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
+  margin: auto;
   left: 0;
   width: 100%;
   height: 100%;

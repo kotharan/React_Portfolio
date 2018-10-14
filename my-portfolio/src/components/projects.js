@@ -22,7 +22,7 @@ class Projects extends Component {
                 </CardText>
                 <CardActions border>
                     <Button style={{width: '50%','font-weight':'bold'}} colored href="https://team-delicious.herokuapp.com/home" target="_blank">Decide NOW!</Button>
-                    <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/Hackathon_team_delicious" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>
+                    <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/Hackathon_team_delicious" target="_blank" style={{display: 'block'}} rel="noopener noreferrer" > <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton hre name="share" /><br/>
@@ -38,7 +38,7 @@ class Projects extends Component {
                 </CardText>
                 <CardActions border>
                     <Button style={{width: '50%', 'font-weight':'bold'}} colored href="https://kotharan.github.io/NewsLetter/" target="_blank">Join Our Committe</Button>
-                    <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/NewsLetter" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
+                    <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/NewsLetter" target="_blank" rel="noopener noreferrer" style={{display: 'block'}}> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
                 </CardActions>
                 <CardMenu style={{color: '#000'}}>
                     <IconButton hre name="share" /><br/>
@@ -59,7 +59,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button style={{width: '50%' , 'text-transform':'capitalize' , 'font-weight':'bold'}} colored href="https://leetcode.com/explore/" target="_blank">Explore LeetCode</Button>
-                        <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
+                        <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions"  target="_blank" rel="noopener noreferrer" style={{display: 'block' }}> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
                     </CardActions>
                     <CardMenu style={{color: '#000'}}>
                         <IconButton hre name="share" /><br/>
