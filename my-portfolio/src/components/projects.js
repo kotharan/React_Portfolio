@@ -83,11 +83,15 @@ class Projects extends Component {
     render(){
         return (
             <div className="category-tabs">
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId)=> this.setState({activeTab: tabId})} ripple>
-                <Tab>HTML / CSS / JS</Tab>
-                <Tab>C++</Tab>
-                <Tab>Python</Tab>
+                
+                <div className="inner-project-tabs">
+                <Tabs activeTab={this.state.activeTab} onChange={(tabId)=> this.setState({activeTab: tabId})} ripple style={{'margin-top': '20px' , 'margin-bottom': '5em'}}>
+                <Tab style={{'font-weight': 'bold'}}>HTML / CSS / JS</Tab>
+                <Tab  style={{'font-weight': 'bold'}}>C++</Tab>
+                <Tab  style={{'font-weight': 'bold'}}>Python</Tab>
                 </Tabs>
+                </div>
+               
                 
 
            
