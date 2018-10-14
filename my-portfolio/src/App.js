@@ -11,7 +11,7 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title="My Portfolio Tabs" scroll>
             <Navigation>
-                <Link to="./" ><a href="./" style={{color:'white', "font-size": '25px', padding: '10px'}}><i className="fa fa-home" /></a></Link>
+                <Link to="./" ><a href="#" style={{color:'white', "font-size": '23px', padding: '10px'}}><i className="fa fa-fort-awesome-sqare" /></a></Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
@@ -20,7 +20,7 @@ class App extends Component {
         </Header>
         <Drawer title="My Portfolio Tabs">
         <Navigation>
-                <Link to="./" ><a href="./" style={{opacity: '0.5' ,color:'black', "font-size": '25px', padding: '10px'}}><i className="fa fa-home" /></a></Link>
+                <Link to="./">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
