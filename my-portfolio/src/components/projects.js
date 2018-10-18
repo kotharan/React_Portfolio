@@ -1,5 +1,7 @@
 import React , {Component} from 'react';
 import {Tabs,Tab , Grid, Cell ,Card , CardText , CardActions , CardMenu , IconButton , CardTitle, Button} from 'react-mdl';
+import {FacebookShareButton,GooglePlusShareButton,LinkedinShareButton,WhatsappShareButton,EmailShareButton} from 'react-share';
+import {FacebookIcon} from 'react-share';
 
 class Projects extends Component {
 
@@ -25,7 +27,7 @@ class Projects extends Component {
                     <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/Hackathon_team_delicious" target="_blank" style={{display: 'block'}} rel="noopener noreferrer" > <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
-                    <IconButton hre name="share" /><br/>
+                <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
                     
                 </CardMenu>
             </Card>
@@ -41,7 +43,8 @@ class Projects extends Component {
                     <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/NewsLetter" target="_blank" rel="noopener noreferrer" style={{display: 'block'}}> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
                 </CardActions>
                 <CardMenu style={{color: '#000'}}>
-                    <IconButton hre name="share" /><br/>
+                    <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
+                    <a href="http://www.facebook.com/sharer.php?u=https://kotharan.github.io/NewsLetter/" target="_blank"><FacebookIcon size=" 25" round="true"></FacebookIcon></a>
                     
                 </CardMenu>
             </Card>
@@ -61,10 +64,10 @@ class Projects extends Component {
                         <Button style={{width: '50%' , 'text-transform':'capitalize' , 'font-weight':'bold'}} colored href="https://leetcode.com/explore/" target="_blank">Explore LeetCode</Button>
                         <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions"  target="_blank" rel="noopener noreferrer" style={{display: 'block' }}> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
                     </CardActions>
-                    <CardMenu style={{color: '#000'}}>
-                        <IconButton hre name="share" /><br/>
+                    <CardMenu style={{color: 'white'}}>
+                        <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
                         
-                    </CardMenu>
+                    </CardMenu>                    
                 </Card>
              </div>
             )

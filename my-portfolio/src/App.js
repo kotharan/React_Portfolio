@@ -7,12 +7,12 @@ import {Link} from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
+      <div className="demo-big-content ">
     <Layout>
-        <Header className="header-color" title="My Portfolio Tabs" scroll>
-            <Navigation>
+        <Header className="header-color " title="My Portfolio Tabs " scroll>
+            <Navigation >
                 <Link to="./" ><a href="./" style={{color:'white', "font-size": '25px', padding: '10px'}}><i className="fa fa-home" /></a></Link>
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume" >Resume</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contacts">Contact</Link>
@@ -21,14 +21,14 @@ class App extends Component {
         <Drawer>
         <Navigation>
                 <Link to="./" ><a href="./" style={{color:'black', "font-size": '25px', padding: '10px' , opacity:'0.5'}}><i className="fa fa-home" /></a></Link>
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume">Resume </Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contacts">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
+            <div className="page-content " />
             <Main/>
         </Content>
     </Layout>

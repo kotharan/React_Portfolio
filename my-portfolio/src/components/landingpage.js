@@ -5,13 +5,9 @@ class LandingPage extends Component {
     render(){
         return (
             <div style={{width: '100' , margin: 'auto'}}>
-               <Grid className= "landing-grid">
+               <Grid className= "landing-grid"  >
                     <Cell col={12}>
                     
-                    <Cell col={5}>
-                    <div class="landing-message"><h1>Hello</h1></div>
-                    </Cell> 
-
                     <img className="avatar-img" src= "https://media.licdn.com/dms/image/C5603AQHAROAlfQ8A7g/profile-displayphoto-shrink_200_200/0?e=1544659200&v=beta&t=hDRIHUqa7PHOvBfwm9OQV9n9dEnfuYSyke_Oi377xzY" alt ="avatar"  />
                    
                     <div className= "banner-text">   
