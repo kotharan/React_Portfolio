@@ -16,6 +16,12 @@
   height: 100%;
 }
 
+.landing-message{
+  text-align: center;
+  margin: auto;
+  height: 7em;
+}
+
 .avatar-img{
   border-radius: 50%;
   padding: 1em;
