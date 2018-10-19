@@ -28,7 +28,7 @@ class Projects extends Component {
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                 <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
-                    
+                    <a href="http://www.facebook.com/sharer.php?u=https://team-delicious.herokuapp.com/home" target="_blank"><FacebookIcon size="27" round="true"></FacebookIcon></a>
                 </CardMenu>
             </Card>
             {/*OSU Basic Newsletter*/}
@@ -44,16 +44,16 @@ class Projects extends Component {
                 </CardActions>
                 <CardMenu style={{color: '#000'}}>
                     <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
-                    <a href="http://www.facebook.com/sharer.php?u=https://kotharan.github.io/NewsLetter/" target="_blank"><FacebookIcon size=" 25" round="true"></FacebookIcon></a>
+                    <a href="http://www.facebook.com/sharer.php?u=https://kotharan.github.io/NewsLetter/" target="_blank"><FacebookIcon size="27" round="true"></FacebookIcon></a>
                     
                 </CardMenu>
             </Card>
             
             </div>
             )
-        }else if(this.state.activeTab === 1){
+        }else if(this.state.activeTab === 1){ {/*C++ LeetCode Solutions*/}
             return(
-                <div className="projects-grid"> {/*C++ LeetCode Solutions*/}
+                <div className="projects-grid"> 
                 <Card shadow={6} style={{width: '450px', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://leetcode.com/static/images/LeetCode_Sharing.png) center / cover'}}></CardTitle>
                     <CardText align="center" >
@@ -66,14 +66,31 @@ class Projects extends Component {
                     </CardActions>
                     <CardMenu style={{color: 'white'}}>
                         <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
-                        
+                        <a href="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions" target="_blank"><FacebookIcon size="27" round="true"></FacebookIcon></a>
                     </CardMenu>                    
                 </Card>
              </div>
             )
-        }else if(this.state.activeTab === 2){
+        }else if(this.state.activeTab === 2){ {/*Python LeetCode Solutions*/}
             return(
-                <div><h1>This is tab 2</h1></div>
+                
+                <div className="projects-grid"> 
+                <Card shadow={6} style={{width: '450px', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.gifer.com/T148.gif) center / cover'}}></CardTitle>
+                    <CardText align="center" >
+                      <b> Personal Interest</b> <br/>
+                       In process of solving all the interview questions posted on LeetCode. Have a look, it might help you for your next interview.
+                    </CardText>
+                    <CardActions border>
+                        <Button style={{width: '50%' , 'text-transform':'capitalize' , 'font-weight':'bold'}} colored href="https://leetcode.com/explore/" target="_blank">Explore LeetCode</Button>
+                        <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions"  target="_blank" rel="noopener noreferrer" style={{display: 'block' }}> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
+                    </CardActions>
+                    <CardMenu style={{color: 'white'}}>
+                        <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
+                        <a href="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions" target="_blank"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                    </CardMenu>                    
+                </Card>
+             </div>
             )
         }
         else if(this.state.activeTab === 3){
