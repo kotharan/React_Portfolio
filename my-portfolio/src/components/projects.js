@@ -1,7 +1,7 @@
 import React , {Component} from 'react';
-import {Tabs,Tab , Grid, Cell ,Card , CardText , CardActions , CardMenu , IconButton , CardTitle, Button} from 'react-mdl';
-import {FacebookShareButton,GooglePlusShareButton,LinkedinShareButton,WhatsappShareButton,EmailShareButton} from 'react-share';
-import {FacebookIcon} from 'react-share';
+import {Tabs,Tab , Grid, Cell ,Card , CardText , CardActions , CardMenu , CardTitle, Button} from 'react-mdl';
+import {FacebookShareButton,GooglePlusShareButton,WhatsappShareButton} from 'react-share';
+import {FacebookIcon,WhatsappIcon,GooglePlusIcon} from 'react-share';
 
 class Projects extends Component {
 
@@ -23,12 +23,13 @@ class Projects extends Component {
                    Come join us, we will help you.
                 </CardText>
                 <CardActions border>
-                    <Button style={{width: '50%','font-weight':'bold'}} colored href="https://team-delicious.herokuapp.com/home" target="_blank">Decide NOW!</Button>
+                    <Button style={{width: '50%','font-weight':'bold'}} colored href="https://team-delicious.herokuapp.com/home" target="_blank" rel="noopener noreferrer">Decide NOW!</Button>
                     <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/Hackathon_team_delicious" target="_blank" style={{display: 'block'}} rel="noopener noreferrer" > <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
-                <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
-                    <a href="http://www.facebook.com/sharer.php?u=https://team-delicious.herokuapp.com/home" target="_blank"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                <GooglePlusShareButton style={{'padding-bottom': '2px'}} url="https://team-delicious.herokuapp.com/home"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
+                <FacebookShareButton style={{'padding-top': '2px'}} url="https://team-delicious.herokuapp.com/home" quote="An amazing way of deciding what you should eat today"><FacebookIcon size="27" round="true"></FacebookIcon></FacebookShareButton>
+                <WhatsappShareButton style={{'padding-top': '2px'}} title="Check out this page" url="https://team-delicious.herokuapp.com/home"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
                 </CardMenu>
             </Card>
             {/*OSU Basic Newsletter*/}
@@ -39,13 +40,13 @@ class Projects extends Component {
                    Debate on college textbooks prices.
                 </CardText>
                 <CardActions border>
-                    <Button style={{width: '50%', 'font-weight':'bold'}} colored href="https://kotharan.github.io/NewsLetter/" target="_blank">Join Our Committe</Button>
+                    <Button style={{width: '50%', 'font-weight':'bold'}} colored href="https://kotharan.github.io/NewsLetter/" target="_blank" rel="noopener noreferrer">Join Our Committe</Button>
                     <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/NewsLetter" target="_blank" rel="noopener noreferrer" style={{display: 'block'}}> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
                 </CardActions>
-                <CardMenu style={{color: '#000'}}>
-                    <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
-                    <a href="http://www.facebook.com/sharer.php?u=https://kotharan.github.io/NewsLetter/" target="_blank"><FacebookIcon size="27" round="true"></FacebookIcon></a>
-                    
+                <CardMenu style={{color: 'orange'}}>
+                    <GooglePlusShareButton style={{'padding-bottom': '2px'}} url="http://www.facebook.com/sharer.php?u=https://kotharan.github.io/NewsLetter/"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
+                    <a href="http://www.facebook.com/sharer.php?u=https://kotharan.github.io/NewsLetter/" target="_blank" rel="noopener noreferrer"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                    <WhatsappShareButton style={{'padding-top': '2px'}} title="Check out this page" url="https://kotharan.github.io/NewsLetter/"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
                 </CardMenu>
             </Card>
             
@@ -61,12 +62,13 @@ class Projects extends Component {
                        In process of solving all the interview questions posted on LeetCode. Have a look, it might help you for your next interview.
                     </CardText>
                     <CardActions border>
-                        <Button style={{width: '50%' , 'text-transform':'capitalize' , 'font-weight':'bold'}} colored href="https://leetcode.com/explore/" target="_blank">Explore LeetCode</Button>
+                        <Button style={{width: '50%' , 'text-transform':'capitalize' , 'font-weight':'bold'}} colored href="https://leetcode.com/explore/" target="_blank" rel="noopener noreferrer">Explore LeetCode</Button>
                         <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions"  target="_blank" rel="noopener noreferrer" style={{display: 'block' }}> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
                     </CardActions>
                     <CardMenu style={{color: 'white'}}>
-                        <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
-                        <a href="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions" target="_blank"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                        <GooglePlusShareButton style={{'padding-bottom': '2px'}} url="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
+                        <a  href="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions" target="_blank" rel="noopener noreferrer"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                        <WhatsappShareButton style={{'padding-top': '3px'}} title="Check out this page" url="https://github.com/kotharan/LeetCode_Solutions"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
                     </CardMenu>                    
                 </Card>
              </div>
@@ -82,12 +84,13 @@ class Projects extends Component {
                        In process of solving all the interview questions posted on LeetCode. Have a look, it might help you for your next interview.
                     </CardText>
                     <CardActions border>
-                        <Button style={{width: '50%' , 'text-transform':'capitalize' , 'font-weight':'bold'}} colored href="https://leetcode.com/explore/" target="_blank">Explore LeetCode</Button>
+                        <Button style={{width: '50%' , 'text-transform':'capitalize' , 'font-weight':'bold'}} colored href="https://leetcode.com/explore/" target="_blank" rel="noopener noreferrer">Explore LeetCode</Button>
                         <Button style={{width: '40%'}} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions"  target="_blank" rel="noopener noreferrer" style={{display: 'block' }}> <i className="fa fa-github" aria-hidden="true" style={{ color : 'black' , 'font-size': '30px' }}/></a>{/*Github*/}</Button>  
                     </CardActions>
                     <CardMenu style={{color: 'white'}}>
-                        <IconButton href="mailto:?Subject=Wanted to share this with you" name="share" /><br/>
-                        <a href="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions" target="_blank"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                        <GooglePlusShareButton style={{'padding-bottom': '2px'}} url="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
+                        <a href="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions" target="_blank" rel="noopener noreferrer"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                        <WhatsappShareButton style={{'padding-top': '3px'}} title="Check out this page" url="https://github.com/kotharan/LeetCode_Solutions"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
                     </CardMenu>                    
                 </Card>
              </div>
