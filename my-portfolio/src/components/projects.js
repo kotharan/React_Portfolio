@@ -52,7 +52,7 @@ class Projects extends Component {
             
             </div>
             )
-        }else if(this.state.activeTab === 1){ {/*C++ LeetCode Solutions*/}
+        }else if(this.state.activeTab === 1){ /*C++ LeetCode Solutions*/
             return(
                 <div className="projects-grid"> 
                 <Card shadow={6} style={{width: '450px', margin: 'auto'}}>
@@ -73,7 +73,7 @@ class Projects extends Component {
                 </Card>
              </div>
             )
-        }else if(this.state.activeTab === 2){ {/*Python LeetCode Solutions*/}
+        }else if(this.state.activeTab === 2){ /*Python LeetCode Solutions*/
             return(
                 
                 <div className="projects-grid"> 
