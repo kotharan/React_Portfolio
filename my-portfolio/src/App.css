@@ -88,6 +88,25 @@
   display: flex;
 }
 
+.contact-body{
+  margin: auto;
+  background : grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;  
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
 
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
