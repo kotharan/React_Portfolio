@@ -3,7 +3,11 @@
  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
  background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+span.mdl-layout-title{
+  font-family:'lobster';
+  font-weight:'italics';
+  font-size:'19px';
+}
 .landing-grid {
   background: #c21500;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
@@ -49,6 +53,7 @@
   width: 70%;
   margin: auto;
   border-radius: 20px;
+  
 }
 
 .banner-text h1{
@@ -56,6 +61,7 @@
   font-weight: bold;
   color: white;
   padding-left: 12%;
+  font-family: Antom;
 }
 
 .banner-text hr{

@@ -6,13 +6,14 @@ class Contact extends Component {
     render(){
         return (
             <div style={{color:'red',margin: 'auto',position: 'fixed',width: '100%',height: '100%','justify-content': 'center','padding-top': '2em'  }}>
-                <Grid clasName="contact-grid" style={{color:'red','text-align': 'center','justify-content': 'center',width: '80%',height: '550px',background: 'white',color: 'black','margin-bottom': '20px'}}>
-                <Cell col={6} > <h2 className="h2class" style={{paddingBottom:'40px'}}> Anand Kothari</h2>
+                <Grid clasName="contact-grid" style={{color:'red','text-align': 'center','justify-content': 'center',width: '80%',height: '550px',background: 'white','margin-bottom': '20px'}}>
+                <Cell col={6} > <h2 className="h2class" style={{paddingBottom:'1%'}}> Anand Kothari</h2>
                 <img
-                src="https://www.beecode.it/skin/frontend/assets/images/coletta.png" alt="avatar" style={{'height':'200px'}}
+                src={require("./contact.jpeg")} alt="avatar" style={{'height':'250px',width:'250px','padding-bottom':'3%','border-radius':'20px'}}
                 />
-                <p style={{width:'75%',margin:"auto",paddingTop:'1em' ,fontFamily:'Oxygen',fontWeight:'bold'}}>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
-                
+                <div className="banner-text" style={{ color:'white'}}>
+                <p style={{width:'75%',margin:"auto",paddingTop:'1em' ,fontFamily:'Oxygen',fontWeight:'bold'}}>I am glad you landed on this page, I assume that means I can help by contributing to your ongoing or future projects using my skills and experiences mentioned in the Resume. Please feel free to shoot me an email for any help/opportunity, I would be very happy to talk about it. Thank you for your time! </p>
+                </div>
                 </Cell>
                 <Cell col={6}> <h2 className="h2class">Contact Me</h2>
                 <hr style={{borderTop:'5px dotted orange',width:'50%',margin:'auto'}}/> 
@@ -26,13 +27,13 @@ class Contact extends Component {
 
                 <ListItem>
                     <ListItemContent style={{fontSize:'25px',fontFamily:'Anton'}}>
-                    <i className="fa fa-linkedin-square" aria-hidden="true"/>  <a href="https://linkedin.com/in/anand-kothari/" target="_blank" >https://linkedin.com/in/anand-kothari/</a>
+                    <i className="fa fa-linkedin-square" aria-hidden="true"/>  <a href="https://linkedin.com/in/anand-kothari/" target="_blank" rel="noopener noreferrer" >https://linkedin.com/in/anand-kothari/</a>
                     </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                     <ListItemContent style={{fontSize:'25px',fontFamily:'Anton'}}>
-                   <i className="fa fa-github-square" aria-hidden="true" /> <a href="https://github.com/kotharan" target="_blank">https://github.com/kotharan</a>
+                   <i className="fa fa-github-square" aria-hidden="true" /> <a href="https://github.com/kotharan" target="_blank" rel="noopener noreferrer">https://github.com/kotharan</a>
                     </ListItemContent>
                 </ListItem>
 
