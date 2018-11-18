@@ -12,10 +12,10 @@ class App extends Component {
         <Header className="header-color " title="My Portfolio Tabs " scroll>
             <Navigation>
                 <Link to="./" ><a href="./" style={{color:'white', "font-size": '25px', padding: '10px'}}><i className="fa fa-home" /></a></Link>
-                <Link to="/resume" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'19px'}}>Resume</Link>
-                <Link to="/aboutme" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'19px'}}>About Me</Link>
-                <Link to="/projects" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'19px'}}>Projects</Link>
-                <Link to="/contacts" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'19px'}}>Contact</Link>
+                <Link to="/resume" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>Resume</Link>
+                <Link to="/aboutme" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>About Me</Link>
+                <Link to="/projects" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>Projects</Link>
+                <Link to="/contacts" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>Contact</Link>
             </Navigation>
         </Header>
         <Drawer>

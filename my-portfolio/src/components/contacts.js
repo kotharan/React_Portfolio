@@ -9,7 +9,7 @@ class Contact extends Component {
                 <Grid clasName="contact-grid" style={{color:'red','text-align': 'center','justify-content': 'center',width: '80%',height: '550px',background: 'white','margin-bottom': '20px'}}>
                 <Cell col={6} > <h2 className="h2class" style={{paddingBottom:'1%'}}> Anand Kothari</h2>
                 <img
-                src={require("./contact.jpeg")} alt="avatar" style={{'height':'250px',width:'250px','padding-bottom':'3%','border-radius':'20px'}}
+                src={require("./photos/contact.jpeg")} alt="avatar" style={{'height':'250px',width:'250px','padding-bottom':'3%','border-radius':'20px'}}
                 />
                 <div className="banner-text" style={{ color:'white'}}>
                 <p style={{width:'75%',margin:"auto",paddingTop:'1em' ,fontFamily:'Oxygen',fontWeight:'bold'}}>I am glad you landed on this page, I assume that means I can help by contributing to your ongoing or future projects using my skills and experiences mentioned in the Resume. Please feel free to shoot me an email for any help/opportunity, I would be very happy to talk about it. Thank you for your time! </p>
