@@ -1,6 +1,8 @@
 import React , {Component} from 'react';
 import {Grid,Cell} from 'react-mdl';
 import Education from './resumeComponents/education';
+import Experience from './resumeComponents/workexperience';
+
 
 class Resume extends Component {
     render(){
@@ -29,16 +31,22 @@ class Resume extends Component {
                     </Cell>    
                 
                     <Cell col={8} className="resume-right-col">
+                   
                     <h2>Education</h2>
-                    <h4  align="center" style={{marginTop: ' 0px'}}>Oregon State Univeristy</h4>
+                    <hr style={{borderTop: ' 5px dotted white'}}/>
+
+                    <h4 style={{marginTop: ' 0px'}}>Oregon State Univeristy <div style={{position:'absolute',left:'85%' }}> GPA: 3.58 </div></h4>
                         <Education
                         startYear={2016}
                         endYear={2018}
                         schoolCoursework={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
                         />
-                     <hr style={{borderTop: ' 5px dotted #e22947'}}/>
+                     <hr style={{borderTop: ' 5px solid #e22947'}}/>
 
+                    <h2 style={{paddingTop: '4%'}}> Experience</h2>
+                    <hr style={{borderTop: ' 5px dotted white'}}/>
 
+                    <Experience/>
                         
                     </Cell>   
                 </Grid>    
