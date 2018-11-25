@@ -113,6 +113,25 @@ span.mdl-layout-title{
   padding: 2em;
   border-radius: 5%;
 }
+.resume-page {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.contacts-page {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
 
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }

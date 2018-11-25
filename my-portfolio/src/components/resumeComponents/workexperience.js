@@ -4,12 +4,12 @@ import {Grid,Cell} from 'react-mdl';
 class Experience extends Component{
     render(){
         return(
-            <div>
-                <Grid>   
-                    <Cell col={2}>Left</Cell>
-                    <Cell col={5}> Mid</Cell>   
-                    <Cell col={5}>Right</Cell>  
+            <div>  
+                <Grid> 
+                    <Cell col={4}>{this.props.startYear} - {this.props.endYear} </Cell>
+                    <Cell col={8}><h5 style={{marginTop:'0px'}}>{this.props.jobName}</h5><p>{this.props.jobDescription}</p></Cell>  
                 </Grid>
+                
             </div>
 
         )

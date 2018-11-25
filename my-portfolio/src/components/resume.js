@@ -2,13 +2,13 @@ import React , {Component} from 'react';
 import {Grid,Cell} from 'react-mdl';
 import Education from './resumeComponents/education';
 import Experience from './resumeComponents/workexperience';
-
+import Skills from './resumeComponents/skills';
 
 class Resume extends Component {
     render(){
         return (
-            <div>
-                <Grid>
+            <div className="resume-page">
+            <div>                <Grid>
                     <Cell col={4} className="resume-left-col">
                         <div style={{textAlign: 'center'}}>
                         <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" alt="avatar" style={{height:'200px'}}/> 
@@ -35,22 +35,40 @@ class Resume extends Component {
                     <h2>Education</h2>
                     <hr style={{borderTop: ' 5px dotted white'}}/>
 
-                    <h4 style={{marginTop: ' 0px'}}>Oregon State Univeristy <div style={{position:'absolute',left:'85%' }}> GPA: 3.58 </div></h4>
+                    <h4 style={{marginTop: ' 0px'}}>Oregon State Univeristy <span style={{position:'absolute',left:'85%',fontSize:'80%' }}> GPA: 3.58 </span></h4>
                         <Education
                         startYear={2016}
                         endYear={2018}
                         schoolCoursework={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
                         />
-                     <hr style={{borderTop: ' 5px solid #e22947'}}/>
+                    <hr style={{borderTop: ' 5px solid #e22947'}}/>
 
                     <h2 style={{paddingTop: '4%'}}> Experience</h2>
                     <hr style={{borderTop: ' 5px dotted white'}}/>
 
-                    <Experience/>
-                        
-                    </Cell>   
+                    <h4 style={{marginTop: ' 0px'}}>Outdoor School  |  OSU Extension Service </h4>
+                    <Experience
+                    startYear={'Mar 2018'}
+                    endYear={'Present'}
+                    jobName={'Backend Developer & Data Analyst'}
+                    jobDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
+                    />
+
+                    <Experience
+                    startYear={'May 2017'}
+                    endYear={'Present'}
+                    jobName={'Student IT Technician'}
+                    jobDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
+                    />
+                    
+                    <hr style={{borderTop: ' 5px solid #e22947'}}/>
+                    <h2 style={{paddingTop: '4%'}}>Technical Skills</h2>
+                    <hr style={{borderTop: ' 5px dotted white'}}/>
+                    <Skills/>
+                    </Cell>  {/* End of right col of Resume page*/}
                 </Grid>    
-               
+                </div>
+
             </div>
         )
     }
