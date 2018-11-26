@@ -64,7 +64,15 @@ class Resume extends Component {
                     <hr style={{borderTop: ' 5px solid #e22947'}}/>
                     <h2 style={{paddingTop: '4%'}}>Technical Skills</h2>
                     <hr style={{borderTop: ' 5px dotted white'}}/>
-                    <Skills/>
+                    <h6>Back-End</h6>
+                    <Skills
+                    skill="Java"
+                    skillvalue={'50%'}
+                    />
+                    <Skills
+                    skill="C++"
+                    skillvalue={'75%'}
+                    />
                     </Cell>  {/* End of right col of Resume page*/}
                 </Grid>    
                 </div>
