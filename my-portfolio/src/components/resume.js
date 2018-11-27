@@ -6,7 +6,9 @@ import Skills from './resumeComponents/skills';
 
 class Resume extends Component {
     render(){
-        return (
+        return (        
+            <div  style={{background: 'url(http://www.nrgroup.info/img/construction.gif) no-repeat top' ,top:'100' }}> {/* Remove ME*/}
+            <div  style={{ background:'grey' , opacity:'0.2'}}>{/* Remove ME*/}
             <div className="resume-page">
             <div>                <Grid>
                     <Cell col={4} className="resume-left-col">
@@ -66,17 +68,18 @@ class Resume extends Component {
                     <hr style={{borderTop: ' 5px dotted white'}}/>
                     <h6>Back-End</h6>
                     <Skills
-                    skill="Java"
-                    skillvalue={'50%'}
+                    BEskill="Java"
+                    BEskillvalue={'50%'}
                     />
                     <Skills
-                    skill="C++"
-                    skillvalue={'75%'}
+                    BEskill="C++"
+                    BEskillvalue={'75%'}
                     />
                     </Cell>  {/* End of right col of Resume page*/}
                 </Grid>    
-                </div>
-
+                </div>{/* Remove ME*/}
+                </div>    {/* Remove ME*/}
+            </div>
             </div>
         )
     }
