@@ -7,8 +7,6 @@ import Skills from './resumeComponents/skills';
 class Resume extends Component {
     render(){
         return (        
-            <div  style={{background: 'url(http://www.nrgroup.info/img/construction.gif) no-repeat top' ,top:'100' }}> {/* Remove ME*/}
-            <div  style={{ background:'grey' , opacity:'0.2'}}>{/* Remove ME*/}
             <div className="resume-page">
             <div>                <Grid>
                     <Cell col={4} className="resume-left-col">
@@ -45,7 +43,7 @@ class Resume extends Component {
                         />
                     <hr style={{borderTop: ' 5px solid #e22947'}}/>
 
-                    <h2 style={{paddingTop: '4%'}}> Experience</h2>
+                    <h2 style={{paddingTop: '2%'}}> Experience</h2>
                     <hr style={{borderTop: ' 5px dotted white'}}/>
 
                     <h4 style={{marginTop: ' 0px'}}>Outdoor School  |  OSU Extension Service </h4>
@@ -64,21 +62,49 @@ class Resume extends Component {
                     />
                     
                     <hr style={{borderTop: ' 5px solid #e22947'}}/>
-                    <h2 style={{paddingTop: '4%'}}>Technical Skills</h2>
+                    <h2 style={{paddingTop: '2%'}}>Technical Skills</h2>
                     <hr style={{borderTop: ' 5px dotted white'}}/>
-                    <h6>Back-End</h6>
+                   
                     <Skills
                     BEskill="Java"
                     BEskillvalue={'50%'}
+                    FEskill="HTML"
+                    FEskillvalue={'90%'}
+                    DBskill="SQL [Oracle & MySQL]"
+                    DBskillvalue={'85%'}
+
                     />
                     <Skills
                     BEskill="C++"
                     BEskillvalue={'75%'}
+                    FEskill="CSS"
+                    FEskillvalue={'90%'}
+                    DBskill="PostgreSQL"
+                    DBskillvalue={'62%'}
                     />
+                    <Skills
+                    BEskill="JavaScript with Node.js "
+                    BEskillvalue={'60%'}
+                    FEskill="Bootstrap"
+                    FEskillvalue={'80%'}
+                    DBskill="MongoDB"
+                    DBskillvalue={'72%'}
+                    />
+                     <Skills
+                    BEskill="Python"
+                    BEskillvalue={'65%'}
+                    FEskill="Restful APIs"
+                    FEskillvalue={'75%'}
+                    DBskill="Ruby On Rails"
+                    DBskillvalue={'70%'}
+                    />
+
+                     <hr style={{borderTop: ' 5px solid #e22947'}}/>
+                    <h2 style={{paddingTop: '2%'}}> Projects & Event Experience</h2>
+                    <hr style={{borderTop: ' 5px dotted white'}}/>
+
                     </Cell>  {/* End of right col of Resume page*/}
                 </Grid>    
-                </div>{/* Remove ME*/}
-                </div>    {/* Remove ME*/}
             </div>
             </div>
         )
