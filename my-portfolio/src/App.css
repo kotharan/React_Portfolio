@@ -79,7 +79,7 @@ span.mdl-layout-title{
   -ms-margin: auto;
   -o-margin: auto;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 10%;
   
 }
 
@@ -133,7 +133,7 @@ span.mdl-layout-title{
 
 
 .contact-list i {
-  font-size: 35px;
+  font-size: 3.5rem;
   -webkit-padding-right: 1rem;
   -moz-padding-right: 1rem;
   -ms-padding-right: 1rem;
@@ -144,6 +144,14 @@ span.mdl-layout-title{
 -ms-padding-bottom: 2rem;
 -o-padding-bottom: 2rem;
 padding-bottom: 2rem;
+}
+
+.contactListItem
+{
+font-size: 2em;
+font-family: Anton;
+
+
 }
 
 /* Resume page css */

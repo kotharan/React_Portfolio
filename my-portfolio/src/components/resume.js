@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './resumeComponents/education';
 import Experience from './resumeComponents/workexperience';
 import Skills from './resumeComponents/skills';
+import Projects from './resumeComponents/projects';
 
 class Resume extends Component {
     render() {
@@ -103,6 +104,33 @@ class Resume extends Component {
                         <h2 style={{ paddingTop: '2%' }}> Projects & Event Experience</h2>
                         <hr style={{ borderTop: ' 5px dotted white' }} />
 
+                        <Projects
+                            Date=" September 2017 - April 2018 | Team of 3"
+                            ProjHead=" Graduate Teaching Assistant Web Application"
+                            ProjDetails={<ul>
+                                <li>Capstone project based on server-side web application implemented in Ruby with MVC framework Rails using Agile Methodology</li>
+                                <li>Appointed as a full-stack developer to fullfil project requirements specified by our clients</li>
+                                <li>Stores data in open-source relational database, PostgreSQL and is deployed on Heroku</li>
+                            </ul>}
+                        />
+                        <Projects
+                            Date="March 2017 - May 2017 | 1-person project"
+                            ProjHead="Cloud Application Development"
+                            ProjDetails={<ul>
+                                <li>Containerized RESTful APIs using Docker to create a Yelp lik Web Application</li>
+                                <li>Implemented in JavaScript and utilized Docker images of MySQL and MongoDB</li>
+                                <li>Packages Used: Express, Nodemon, SuperAgent</li>
+                            </ul>}
+                        />
+                        <Projects
+                            Date="August 2018 | Team of 3"
+                            ProjHead="Hackathon 3.0"
+                            ProjDetails={<ul>
+                             <li>Web Application helps to decide a meal as per calories and allergies</li>   
+                             <li>Placed 2<sup>nd</sup> out of 20 teams, URL - <a href="https://team-delicious.herokuapp.com/daily">https://team-delicious.herokuapp.com/daily</a></li>   
+                             <li>Includes working with: APIs, Node JS, Handlebars, Bootstrap and Heroku</li>   
+                            </ul>}
+                        />
                     </Cell>  {/* End of right col of Resume page*/}
                 </Grid>
                 </div>
