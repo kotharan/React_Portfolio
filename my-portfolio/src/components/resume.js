@@ -11,9 +11,10 @@ class Resume extends Component {
             <div className="resume-page">
                 <div>                <Grid>
                     <Cell col={4} className="resume-left-col">
-                        <div style={{ textAlign: 'center' }}>
+                        <div style={{ textAlign: 'center'}}>
                             <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" alt="avatar" style={{ height: '200px' }} />
                         </div>
+           
                         <h2 style={{ paddingTop: '2em', fontFamily: 'Antom' }}>Anand Kothari</h2>
                         <h4 style={{ color: 'grey' }}>Hello</h4>
                         <hr style={{ borderTop: '3px solid #033fb1', width: '50%' }} />
