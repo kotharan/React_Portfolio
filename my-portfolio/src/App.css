@@ -189,6 +189,18 @@ font-family: Anton;
   overflow-x: hidden;
 }
 
+.resumeDownloadbutton{
+height: 2.5%;
+width:5% ;
+position:absolute ;
+margin-left:29%;
+top:1%
+}
+.resumeDownloadbutton:hover{
+  animation: shake 0.6s;
+  animation-iteration-count: 0.5;
+}
+
 ::-webkit-scrollbar {
   width: 0px;  /* remove scrollbar space */
   background: transparent;  /* optional: just make scrollbar invisible */

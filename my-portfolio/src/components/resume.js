@@ -4,6 +4,9 @@ import Education from './resumeComponents/education';
 import Experience from './resumeComponents/workexperience';
 import Skills from './resumeComponents/skills';
 import Projects from './resumeComponents/projects';
+import { FacebookShareButton, GooglePlusShareButton, WhatsappShareButton } from 'react-share';
+import { FacebookIcon, WhatsappIcon, GooglePlusIcon } from 'react-share';
+
 
 class Resume extends Component {
     render() {
@@ -11,10 +14,10 @@ class Resume extends Component {
             <div className="resume-page">
                 <div>                <Grid>
                     <Cell col={4} className="resume-left-col">
-                        <div style={{ textAlign: 'center',height: '14.5em' ,width:'80%', position:'flex', marginLeft:'10%' , border:'dotted 1px'}}>
+                        <div style={{ textAlign: 'center',height: '14.5em' ,width:'80%', position:'flex', marginLeft:'10%'}}>
                             <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" alt="avatar" style={{ height: '200px' }} />
                         </div>
-                            <img style={{height: '2.5%', width:'5%' , position:'absolute' ,border:'dotted 1px green', marginLeft:'29%', top:'1%'}}/>
+                        <a href={require('./photos/Resume.pdf')} download="Anand_Kothari_Resume.pdf"> <img className="resumeDownloadbutton" src={require('./photos/resumeDownload.png')}  alt="Avatar" title="Download Resume in PDF"/></a>
            
                         <h2 style={{ paddingTop: '2em', fontFamily: 'Antom' }}>Anand Kothari</h2>
                         <h4 style={{ color: 'grey' }}>Hello</h4>
