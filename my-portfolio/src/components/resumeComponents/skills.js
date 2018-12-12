@@ -4,9 +4,9 @@ import { Grid, Cell } from "react-mdl";
 class Skills extends Component {
   render() {
     return (
-      <Grid>
+      <Grid className="shakeOnhover">
         {/* Mostly Back-End Skills*/}
-        <Cell col={4}>
+        <Cell className="shakeOnhover" col={4} >
           <div style={{ display: "flex", marginLeft: '10%' }}>
             {this.props.BEskill}
             <div
@@ -19,7 +19,7 @@ class Skills extends Component {
         </Cell>
 
         {/* Mostly Front-End Skills*/}
-        <Cell col={4} style={{ marginLeft: 'auto' }}>
+        <Cell className="shakeOnhover" col={4} style={{ marginLeft: 'auto' }}>
           <div style={{ display: "flex", marginLeft: '10%' }}>
             {this.props.FEskill}
             <div
@@ -32,7 +32,7 @@ class Skills extends Component {
         </Cell>
 
         {/* Database & Other Skills*/}
-        <Cell col={4} style={{ marginLeft: 'auto' }}>
+        <Cell className="shakeOnhover" col={4} style={{ marginLeft: 'auto' }}>
           <div style={{ display: "flex", marginLeft: '10%' }}>
             {this.props.DBskill}
             <div

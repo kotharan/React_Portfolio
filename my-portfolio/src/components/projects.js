@@ -23,7 +23,7 @@ class Projects extends Component {
                 </CardText>
                         <CardActions border>
                             <Button style={{ width: '50%', 'font-weight': 'bold' }} colored href="https://team-delicious.herokuapp.com/home" target="_blank" rel="noopener noreferrer">Decide NOW!</Button>
-                            <Button style={{ width: '40%' }} target="_blank" colored><a href="https://github.com/kotharan/Hackathon_team_delicious" target="_blank" style={{ display: 'block' }} rel="noopener noreferrer" > <i className="fa fa-github" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*Github*/}</Button>
+                            <Button style={{ width: '40%' }} target="_blank" colored><a href="https://github.com/kotharan/Hackathon_team_delicious" target="_blank" style={{ display: 'block' }} rel="noopener noreferrer" > <i title="Open this Project on GitHub" className="fa fa-github" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*Github*/}</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <GooglePlusShareButton style={{ 'padding-bottom': '1%' }} url="https://team-delicious.herokuapp.com/home"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
@@ -40,7 +40,7 @@ class Projects extends Component {
                 </CardText>
                         <CardActions border>
                             <Button style={{ width: '50%', 'font-weight': 'bold' }} colored href="https://kotharan.github.io/NewsLetter/" target="_blank" rel="noopener noreferrer">Join Our Committe</Button>
-                            <Button style={{ width: '40%' }} target="_blank" colored><a href="https://github.com/kotharan/NewsLetter" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}> <i className="fa fa-github" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*Github*/}</Button>
+                            <Button style={{ width: '40%' }} target="_blank" colored><a href="https://github.com/kotharan/NewsLetter" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}> <i title="Open this Project on GitHub" className="fa fa-github" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*Github*/}</Button>
                         </CardActions>
                         <CardMenu style={{ color: 'orange' }}>
                             <GooglePlusShareButton style={{ 'padding-bottom': '10%' }} url="http://www.facebook.com/sharer.php?u=https://kotharan.github.io/NewsLetter/"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
@@ -62,7 +62,7 @@ class Projects extends Component {
                     </CardText>
                         <CardActions border>
                             <Button style={{ width: '50%', 'text-transform': 'capitalize', 'font-weight': 'bold' }} colored href="https://leetcode.com/explore/" target="_blank" rel="noopener noreferrer">Explore LeetCode</Button>
-                            <Button style={{ width: '40%' }} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}> <i className="fa fa-github" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*Github*/}</Button>
+                            <Button style={{ width: '40%' }} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}> <i title="Open this Project on GitHub" className="fa fa-github" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*Github*/}</Button>
                         </CardActions>
                         <CardMenu style={{ color: 'white' }}>
                             <GooglePlusShareButton style={{ 'padding-bottom': '10%' }} url="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
@@ -84,7 +84,7 @@ class Projects extends Component {
                     </CardText>
                         <CardActions border>
                             <Button style={{ width: '50%', 'text-transform': 'capitalize', 'font-weight': 'bold' }} colored href="https://leetcode.com/explore/" target="_blank" rel="noopener noreferrer">Explore LeetCode</Button>
-                            <Button style={{ width: '40%' }} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}> <i className="fa fa-github" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*Github*/}</Button>
+                            <Button style={{ width: '40%' }} target="_blank" colored><a href="https://github.com/kotharan/LeetCode_Solutions" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}> <i title="Open this Project on GitHub" className="fa fa-github" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*Github*/}</Button>
                         </CardActions>
                         <CardMenu style={{ color: 'white' }}>
                             <GooglePlusShareButton style={{ 'padding-bottom': '10%' }} url="http://www.facebook.com/sharer.php?u=https://github.com/kotharan/LeetCode_Solutions"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>

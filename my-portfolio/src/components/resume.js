@@ -15,10 +15,9 @@ class Resume extends Component {
                 <div>                <Grid>
                     <Cell col={4} className="resume-left-col">
                         <div style={{ textAlign: 'center',height: '14.5em' ,width:'80%', position:'flex', marginLeft:'10%'}}>
-                            <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" alt="avatar" style={{ height: '200px' }} />
+                            <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" alt="avatar" style={{ height: '100%' }} />
                         </div>
-                        <a href={require('./photos/Resume.pdf')} download="Anand_Kothari_Resume.pdf"> <img className="resumeDownloadbutton" src={require('./photos/resumeDownload.png')}  alt="Avatar" title="Download Resume in PDF"/></a>
-           
+                        
                         <h2 style={{ paddingTop: '2em', fontFamily: 'Antom' }}>Anand Kothari</h2>
                         <h4 style={{ color: 'grey' }}>Hello</h4>
                         <hr style={{ borderTop: '3px solid #033fb1', width: '50%' }} />
@@ -37,15 +36,21 @@ class Resume extends Component {
                     </Cell>
 
                     <Cell col={8} className="resume-right-col">
+                    <div style={{ height:'2.5em', textAlign:'center',width:'17%' ,float:'right'}}>
+                    <a href={require('./photos/Resume.pdf')} download="Anand_Kothari_Resume.pdf"> <i title="Download in PDF"  style={{ color: 'yellow', 'font-size': '2.1em' }} class="fa fa-download shareButton" aria-hidden="true"/></a>
+                    <GooglePlusShareButton className="shareButton" style={{ float:'right' ,margin:'1%'}} url="https://kotharan.github.io/React_Portfolio/#/resume"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
+                    <FacebookShareButton className="shareButton" style={{ float:'right' ,margin:'1%' }} url="https://kotharan.github.io/React_Portfolio/#/resume" quote="An amazing way of deciding what you should eat today"><FacebookIcon size="27" round="true"></FacebookIcon></FacebookShareButton>
+                    <WhatsappShareButton className="shareButton" style={{ float:'right' ,margin:'1%'  }} title="Check out this page" url="https://kotharan.github.io/React_Portfolio/#/resume"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
+                    </div>
 
-                        <h2>Education</h2>
+                        <h2 >Education</h2>
                         <hr style={{ borderTop: ' 5px dotted white' }} />
 
                         <h4 style={{ marginTop: ' 0px' }}>Oregon State Univeristy <span style={{ position: 'absolute', left: '85%', fontSize: '80%' }}> GPA: 3.58 </span></h4>
                         <Education
                             startYear={2016}
                             endYear={2018}
-                            schoolCoursework={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
+                            schoolCoursework={"Analysis of Algorithms, Data Structures, Web Technology, Software Engineering I & II, Computer Architecture & Assembly Language, Operating Systems, Software usability , Cloud Application Development [APIs]"}
                         />
                         <hr style={{ borderTop: ' 5px solid #e22947' }} />
 
@@ -55,16 +60,24 @@ class Resume extends Component {
                         <h4 style={{ marginTop: ' 0px' }}>Outdoor School  |  OSU Extension Service </h4>
                         <Experience
                             startYear={'Mar 2018'}
-                            endYear={'Present'}
+                            endYear={'Dec 2018'}
                             jobName={'Backend Developer & Data Analyst'}
-                            jobDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
+                            jobDescription={<ul>
+                                <li>Created online surveys with multiple logic functions which made their applications 3 times faster</li>
+                                <li>Developed robust code in Python to increase work automation by 85% using various libraries like panda, glob , os and others</li>
+                                </ul>}
                         />
 
                         <Experience
                             startYear={'May 2017'}
-                            endYear={'Present'}
+                            endYear={'Dec 2018'}
                             jobName={'Student IT Technician'}
-                            jobDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"}
+                            jobDescription={<ul>
+                                <li>Built and Imaged laptops as per University standards for all staff and faculty at the Corvallis campus as well as OSU
+Extension campuses. Also, diagnosed and repair personal computers of students and faculty</li>
+                                <li>Helped troubleshooting Drivers, BIOS errors and network related issues. Provided Remote Support.</li>
+                                <li>Provided Networking(TCP/IP) configuration and other services using software like TeamDynamix, ResDesk and Rave Alert</li>
+                                </ul>}
                         />
 
                         <hr style={{ borderTop: ' 5px solid #e22947' }} />
