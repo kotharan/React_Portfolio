@@ -14,10 +14,8 @@ class Resume extends Component {
             <div className="resume-page">
                 <div>                <Grid>
                     <Cell col={4} className="resume-left-col">
-                        <div style={{ textAlign: 'center',height: '14.5em' ,width:'80%', position:'flex', marginLeft:'10%'}}>
-                            <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" alt="avatar" style={{ height: '100%' }} />
-                        </div>
-                        
+                    
+                        <span className="left-col">
                         <h2 style={{ paddingTop: '1em', fontFamily: 'Antom' }}>Anand Kothari</h2>
                         <hr style={{ borderTop: '3px solid #033fb1', width: '50%' }} />
                         <p>Inquisitive, energetic computer science specialist skilled in leadership, with a strong foundation in math, logic, and cross-platform coding. Seeking to leverage solid skills in collaboration, communication, and development as a Web/Software Developer</p>
@@ -29,15 +27,16 @@ class Resume extends Component {
                         <h5>Important Links</h5>
                         <p>https://linkedin.com/in/anand-kothari/</p>
                         <hr style={{ borderTop: '3px solid #033fb1', width: '50%' }} />
+                        </span>
                     </Cell>
 
                     <Cell col={8} className="resume-right-col">
-                    <div style={{ height:'2.5em', textAlign:'center',width:'17%' ,float:'right'}}>
+                    <div style={{position:'fixed', width:'60%'}}><div style={{ height:'2.5em', textAlign:'center',width:'17%' ,float:'right'}}>
                     <a href={require('./photos/Resume.pdf')} download="Anand_Kothari_Resume.pdf"> <i title="Download in PDF"  style={{ color: 'yellow', 'font-size': '2.1em' }} class="fa fa-download shareButton" aria-hidden="true"/></a>
                     <GooglePlusShareButton className="shareButton" style={{ float:'right' ,margin:'1%'}} url="https://kotharan.github.io/React_Portfolio/#/resume"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
                     <FacebookShareButton className="shareButton" style={{ float:'right' ,margin:'1%' }} url="https://kotharan.github.io/React_Portfolio/#/resume" quote="An amazing way of deciding what you should eat today"><FacebookIcon size="27" round="true"></FacebookIcon></FacebookShareButton>
                     <WhatsappShareButton className="shareButton" style={{ float:'right' ,margin:'1%'  }} title="Check out this page" url="https://kotharan.github.io/React_Portfolio/#/resume"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
-                    </div>
+                    </div></div>
 
                         <h2 >Education</h2>
                         <hr style={{ borderTop: ' 5px dotted white' }} />

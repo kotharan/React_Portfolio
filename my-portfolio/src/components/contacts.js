@@ -5,8 +5,8 @@ import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 class Contact extends Component {
     render() {
         return (
-            <div className="contacts-page" style={{ color: 'red', margin: 'auto', position: 'fixed', width: '100%', height: '100%', 'justify-content': 'center', 'padding-top': '1%' }}>
-                <Grid clasName="contact-grid" style={{ color: 'red', 'text-align': 'center', 'justify-content': 'center', width: '80%', height: '100%', background: 'white', 'margin-bottom': '20px' }}>
+            <div className="contacts-page" style={{  margin: 'auto', position: 'fixed', width: '100%', height: '100%', 'justify-content': 'center', 'padding-top': '1%' }}>
+                <Grid clasName="contact-grid" style={{  'text-align': 'center', 'justify-content': 'center', width: '80%', height: '100%', 'margin-bottom': '20px' }}>
                     <Cell col={6} > <h2 className="h2class" style={{ marginBottom: '2%' }}> Anand Kothari</h2>
                         <img
                             src={require("./photos/contact.jpeg")} alt="avatar" style={{ 'height': '43%', width: '43%', 'border': '0', 'border-radius': '5%', 'box-shadow': '10px 10px 25px grey', marginBottom: '10px' }}

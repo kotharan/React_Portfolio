@@ -13,7 +13,6 @@ class App extends Component {
             <Navigation>
                 <Link to="./" ><a href="./" style={{color:'white', "font-size": '189%', padding: 'auto'}}><i className="fa fa-home" /></a></Link>
                 <Link to="/resume" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>Resume</Link>
-                <Link to="/aboutme" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>About Me</Link>
                 <Link to="/projects" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>Projects</Link>
                 <Link to="/contacts" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>Contact</Link>
             </Navigation>
@@ -22,7 +21,6 @@ class App extends Component {
         <Navigation>
                 <Link to="./" ><a href="./" style={{color:'black', "font-size": '25px', padding: '10px' , opacity:'0.5'}}><i className="fa fa-home" /></a></Link>
                 <Link to="/resume">Resume </Link>
-                <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contacts">Contact</Link>
             </Navigation>
