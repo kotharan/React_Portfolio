@@ -18,20 +18,16 @@ class Resume extends Component {
                             <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" alt="avatar" style={{ height: '100%' }} />
                         </div>
                         
-                        <h2 style={{ paddingTop: '2em', fontFamily: 'Antom' }}>Anand Kothari</h2>
-                        <h4 style={{ color: 'grey' }}>Hello</h4>
+                        <h2 style={{ paddingTop: '1em', fontFamily: 'Antom' }}>Anand Kothari</h2>
                         <hr style={{ borderTop: '3px solid #033fb1', width: '50%' }} />
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                        </p>
+                        <p>Inquisitive, energetic computer science specialist skilled in leadership, with a strong foundation in math, logic, and cross-platform coding. Seeking to leverage solid skills in collaboration, communication, and development as a Web/Software Developer</p>
                         <hr style={{ borderTop: '3px solid #033fb1', width: '50%' }} />
                         <h5>Address</h5>
-                        <p>1 Hacker way Menlo Park, 31646 </p>
-                        <h5>Phone</h5>
-                        <p>(123) 456-080</p>
+                        <p>426 NW 11th Street </p>
                         <h5>Email</h5>
-                        <p>Some@oregonstate.edu</p>
-                        <h5>Web</h5>
-                        <p>Webxyz.com</p>
+                        <p>anandkothari96@gmail.com</p>
+                        <h5>Important Links</h5>
+                        <p>https://linkedin.com/in/anand-kothari/</p>
                         <hr style={{ borderTop: '3px solid #033fb1', width: '50%' }} />
                     </Cell>
 

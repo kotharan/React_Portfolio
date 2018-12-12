@@ -122,6 +122,9 @@ span.mdl-layout-title{
 }
 .h2class{
   font-family:Lobster,sans-serif;
+  margin:auto;
+  padding-bottom:2%;
+  padding-top:2%;
 }
 .social-links i:hover{
   animation: shake 0.6s;
@@ -174,6 +177,15 @@ font-family: Anton;
   -ms-overflow-x: hidden;
   -o-overflow-x: hidden;
   overflow-x: hidden;
+}
+
+.resume-page p {
+  font-size:medium;
+  line-height: 1.6; 
+}
+.resume-right-col ul li{
+  font-size: medium;
+  line-height: 1.6; 
 }
 
 .contacts-page {
