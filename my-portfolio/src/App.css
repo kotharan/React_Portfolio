@@ -241,6 +241,10 @@ font-family: Anton;
   background: #FF0000;
 }
 
+.mdl-layout__drawer-button i.material-icons{
+  color:yellow;
+  font-size: xx-large;
+}
 
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
