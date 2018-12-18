@@ -3,6 +3,24 @@
  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
  background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+@media screen and (max-width:1025px)
+{
+  header.mdl-layout__header.mdl-layout__header--scroll.header-color{
+   display: inline-flex;
+   width: auto;
+   padding: auto;
+  }
+}
+
+
+@media screen and (max-width:570px)
+{
+  nav.mdl-navigation.topNav{
+   display: none;
+  }
+}
+
 .landing-grid {
   background: #c21500;  /* fallback for old browsers */
   -webkit-background-size: cover;
@@ -65,16 +83,16 @@ span.mdl-layout-title{
   -moz-border-radius: 50%;
   border-radius: 50%;
   padding: 1em;
-  -webkit-width: 180px;
-  -moz-width: 180px;
-  -ms-width: 180px;
-  -o-width: 180px;
-  width: 180px;
-  -webkit-height: 200px;
-  -moz-height: 200px;
-  -ms-height: 200px;
-  -o-height: 200px;
-  height: 200px;
+  -webkit-width: 200px;
+  -moz-width: 200px;
+  -ms-width: 200px;
+  -o-width: 200px;
+  width: 200px;
+  -webkit-height: 240px;
+  -moz-height: 240px;
+  -ms-height: 240px;
+  -o-height: 240px;
+  height: 240px;
 }
 
 .avatar-img:hover{

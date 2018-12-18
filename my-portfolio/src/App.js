@@ -10,7 +10,7 @@ class App extends Component {
       <div className="demo-big-content ">
     <Layout>
         <Header className="header-color " title="My Portfolio " scroll>
-            <Navigation>
+            <Navigation className="topNav">
                 <Link to="./" ><a href="./" style={{color:'white', "font-size": '189%', padding: 'auto'}}><i className="fa fa-home" /></a></Link>
                 <Link to="/resume" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>Resume</Link>
                 <Link to="/projects" style={{fontFamily:'lobster',fontWeight:'italics',fontSize:'150%'}}>Projects</Link>
