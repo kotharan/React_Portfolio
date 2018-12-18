@@ -65,7 +65,18 @@ span.mdl-layout-title{
   -moz-border-radius: 50%;
   border-radius: 50%;
   padding: 1em;
+  -webkit-width: 180px;
+  -moz-width: 180px;
+  -ms-width: 180px;
+  -o-width: 180px;
+  width: 180px;
+  -webkit-height: 200px;
+  -moz-height: 200px;
+  -ms-height: 200px;
+  -o-height: 200px;
+  height: 200px;
 }
+
 .avatar-img:hover{
   animation: shake 0.6s;
   animation-iteration-count: 1;}
