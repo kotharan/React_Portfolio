@@ -97,7 +97,23 @@ class Projects extends Component {
         }
         else if (this.state.activeTab === 3) {
             return (
-                <div><h1>This is tab 3</h1></div>
+                <div className="projects-grid">
+                    <Card shadow={6} style={{ borderRadius: '5%', width: '31%', margin: 'auto' }}>
+                        <CardTitle className="YouTube" style={{ color: '#fff', height: '14rem'}}></CardTitle>  {/*background applied in app.css */}
+                        <CardText align="center" >
+                            <b> Personal Interest</b> <br />
+                            This video will help you pick the best microphone for your YouTube Channel Videos
+                    </CardText>
+                        <CardActions border>
+                            <Button style={{ width: '100%' ,'text-transform': 'capitalize', 'font-weight': 'bold'}} target="_blank" colored><a href="https://youtu.be/1a9Z9aCjPWU" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}> <i title="Open this Project on YouTube" className="fa fa-youtube" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*YouTube*/}</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: 'white' }}>
+                            <GooglePlusShareButton style={{ 'padding-bottom': '10%' }} url="http://www.facebook.com/sharer.php?u=https://youtu.be/1a9Z9aCjPWU"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
+                            <a href="http://www.facebook.com/sharer.php?u=https://youtu.be/1a9Z9aCjPWU" target="_blank" rel="noopener noreferrer"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                            <WhatsappShareButton style={{ 'padding-top': '10%' }} title="Check out this video" url="https://youtu.be/1a9Z9aCjPWU"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
+                        </CardMenu>
+                    </Card>
+                </div>
             )
         }
     }
@@ -111,6 +127,7 @@ class Projects extends Component {
                         <Tab style={{ 'font-weight': 'bold' }}>HTML / CSS / JS</Tab>
                         <Tab style={{ 'font-weight': 'bold' }}>C++</Tab>
                         <Tab style={{ 'font-weight': 'bold' }}>Python</Tab>
+                        <Tab style={{ 'font-weight': 'bold' }}>YouTube</Tab>
                     </Tabs>
                 </div>
 

@@ -296,6 +296,10 @@ font-family: Anton;
   font-size: xx-large;
 }
 
+.YouTube{
+  background: url('./components/photos/youtube.JPG') center / cover 
+}
+
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
