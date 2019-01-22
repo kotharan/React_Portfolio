@@ -297,7 +297,16 @@ font-family: Anton;
 }
 
 .YouTube{
-  background: url('./components/photos/youtube.JPG') center / cover 
+  background: url('./components/photos/youtube.JPG') no-repeat center / cover ;
+  background-size: 20em ;
+}
+.YouTube1{
+  background: url('./components/photos/youtube1.jpg') no-repeat center / cover ;
+  background-size: 20em ;
+
+}
+.NewsLetter{
+  background: url('./components/photos/osu.png') top / cover 
 }
 
   @keyframes shake {
