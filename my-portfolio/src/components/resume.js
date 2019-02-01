@@ -25,7 +25,8 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>anandkothari96@gmail.com</p>
                         <h5>Important Links</h5>
-                        <p>https://linkedin.com/in/anand-kothari/</p>
+                        <p>  <div className="social-links" style={{fontSize:'0.5em' , marginLeft:'0px'}}><a href="https://github.com/kotharan" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github" aria-hidden="true"/></a>{/*Github*/}
+                        <a href="https://www.linkedin.com/in/anand-kothari/" target="_blank" rel="noopener noreferrer"> <i className="fa fa-linkedin-square" aria-hidden="true"/></a> {/*LinkedIn*/}</div></p>
                         <hr style={{ borderTop: '3px solid #033fb1', width: '50%' }} />
                         </span>
                     </Cell>
@@ -130,7 +131,7 @@ Extension campuses. Also, diagnosed and repair personal computers of students an
                             Date="March 2017 - May 2017 | 1-person project"
                             ProjHead="Cloud Application Development"
                             ProjDetails={<ul>
-                                <li>Containerized RESTful APIs using Docker to create a Yelp lik Web Application</li>
+                                <li>Containerized RESTful APIs using Docker to create a Yelp like Web Application</li>
                                 <li>Implemented in JavaScript and utilized Docker images of MySQL and MongoDB</li>
                                 <li>Packages Used: Express, Nodemon, SuperAgent</li>
                             </ul>}

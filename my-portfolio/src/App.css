@@ -305,6 +305,11 @@ font-family: Anton;
   background-size: 20em ;
 
 }
+.YouTube2{
+  background: url('./components/photos/Technology\ has\ some\ wonderful\ benefits.\ We\ use\ it\ almost\ every\ day..png') no-repeat center / cover ;
+  background-size: 20em ;
+
+}
 .NewsLetter{
   background: url('./components/photos/osu.png') top / cover 
 }
