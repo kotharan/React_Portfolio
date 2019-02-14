@@ -101,6 +101,21 @@ class Projects extends Component {
     <h2 align='center' style={{fontFamily:'anton' , color:'white' ,background:'#444' ,borderRadius:'50px',marginTop:'-50px' , marginRight:'200px',marginLeft:'200px'}}>YouTube Channel for Tech Reviews</h2>
                 <div className="projects-grid">
 
+        <Card shadow={6} style={{ borderRadius: '5%', width: '31%', margin: 'auto' }}>
+                        <CardTitle className="YouTube3" style={{ color: '#fff', height: '14rem'}}></CardTitle>  {/*background applied in app.css */}
+                        <CardText align="center" >
+                            <b> Personal Interest</b> <br />
+                            Leaked Information of Samsung Galaxy S10 : Price, Specifications, Features and everything you need to know before buying S10 model.  
+                    </CardText>
+                        <CardActions border>
+                            <Button style={{ width: '100%' ,'text-transform': 'capitalize', 'font-weight': 'bold'}} target="_blank" colored><a href="https://youtu.be/4PAL1qAYhQY" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}> <i title="Open this Project on YouTube" className="fa fa-youtube" aria-hidden="true" style={{ color: 'black', 'font-size': '2.2em' }} /></a>{/*YouTube*/}</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: 'white' }}>
+                            <GooglePlusShareButton style={{ 'padding-bottom': '10%' }} url="http://www.facebook.com/sharer.php?u=https://youtu.be/4PAL1qAYhQY"><GooglePlusIcon size={27} round={true} /></GooglePlusShareButton>
+                            <a href="http://www.facebook.com/sharer.php?u=https://youtu.be/4PAL1qAYhQY" target="_blank" rel="noopener noreferrer"><FacebookIcon size="27" round="true"></FacebookIcon></a>
+                            <WhatsappShareButton style={{ 'padding-top': '10%' }} title="Check out this video" url="https://youtu.be/4PAL1qAYhQY"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
+                        </CardMenu>
+                    </Card>
                 <Card shadow={6} style={{ borderRadius: '5%', width: '31%', margin: 'auto'  }}>
                         <CardTitle className="YouTube2" style={{ color: '#fff', height: '14rem'}}></CardTitle>  {/*background applied in app.css */}
                         <CardText align="center" >
@@ -118,8 +133,12 @@ class Projects extends Component {
                     </Card>
 
 
+            
+                </div>
 
-                    <Card shadow={6} style={{ borderRadius: '5%', width: '31%', margin: 'auto' }}>
+                <div className="projects-grid">
+
+                        <Card shadow={6} style={{ borderRadius: '5%', width: '31%', margin: 'auto', marginTop: '3%'  }}>
                         <CardTitle className="YouTube" style={{ color: '#fff', height: '14rem'}}></CardTitle>  {/*background applied in app.css */}
                         <CardText align="center" >
                             <b> Personal Interest</b> <br />
@@ -134,11 +153,8 @@ class Projects extends Component {
                             <WhatsappShareButton style={{ 'padding-top': '10%' }} title="Check out this video" url="https://youtu.be/1a9Z9aCjPWU"><WhatsappIcon size="27" round="true"></WhatsappIcon></WhatsappShareButton>
                         </CardMenu>
                     </Card>
-                </div>
 
-                <div className="projects-grid">
-
-                <Card shadow={6} style={{ borderRadius: '5%', width: '31%', margin: 'auto', marginTop: '5%' }}>
+                <Card shadow={6} style={{ borderRadius: '5%', width: '31%', margin: 'auto', marginTop: '3%' }}>
                 <CardTitle className="YouTube1" style={{ color: '#fff', height: '14rem'}}></CardTitle>  {/*background applied in app.css */}
                 <CardText align="center" >
                     <b> Personal Interest</b> <br />

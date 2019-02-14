@@ -308,7 +308,10 @@ font-family: Anton;
 .YouTube2{
   background: url('./components/photos/Technology\ has\ some\ wonderful\ benefits.\ We\ use\ it\ almost\ every\ day..png') no-repeat center / cover ;
   background-size: 20em ;
-
+}
+.YouTube3{
+  background: url('./components/photos/gs10.jpg') no-repeat center / cover ;
+  background-size: 20em ;
 }
 .NewsLetter{
   background: url('./components/photos/osu.png') top / cover 
